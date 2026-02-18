@@ -1,0 +1,41 @@
+@use 'config' as c;
+@use 'global';
+
+@use 'sect01';
+@use 'moduloBoton01';
+@use 'moduloBoton02';
+@use 'art02-bis';
+@use 'art03';
+@use 'art05';
+@use 'art06'; 
+
+
+
+header{
+    background-image: url('/assets/img/vistas/inicio/panaderia-pasteleria-aginaga-1500.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    @media only screen and (min-width:c.$tablet){
+        background-image: url('/assets/img/vistas/inicio/panaderia-pasteleria-aginaga-1800.avif');
+    }
+    @media only screen and (min-width:c.$desktop){
+        background-image: url('/assets/img/vistas/inicio/panaderia-pasteleria-aginaga-2560.avif');
+    }
+    h1{
+        color: c.$color00; 
+    }
+}
+
+.art03{
+    img{
+        object-position: 0 -100px;
+    }
+}
+
+
+
+
+
+

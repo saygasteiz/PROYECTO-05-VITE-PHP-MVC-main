@@ -1,0 +1,21 @@
+@use 'config' as c;
+@use 'global';
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    section{
+        width: 100%;
+        padding: 1.5rem;      
+        @media only screen and (min-width:c.$tablet){
+            width: 90%;
+        }
+        @media only screen and (min-width:c.$desktop){
+            width: 80%;
+            max-width: 1200px;
+        }
+    }
+}

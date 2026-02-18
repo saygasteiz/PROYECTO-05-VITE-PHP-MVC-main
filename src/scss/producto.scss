@@ -1,0 +1,26 @@
+@use 'config' as c;
+@use 'global';
+@use 'art01';
+@use 'moduloBoton02';
+
+
+header{
+    overflow: hidden;
+    background-color: initial;
+    position: relative;
+    >img{
+        position: absolute;
+        width: 100%;
+        height: 100%; 
+        object-fit: cover;
+        object-position: center;
+        z-index: -1;
+    }
+    h1{
+        font-size: clamp(1rem, 3vw, 5rem);
+        color: c.$color00;
+        @media only screen and (min-width:c.$tablet){
+            max-width:50%; 
+        }
+    }
+}

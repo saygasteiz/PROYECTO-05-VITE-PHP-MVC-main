@@ -1,0 +1,134 @@
+@use 'config' as c;
+@use 'global';
+@use 'artForm';
+
+header{
+    background-image: url('/assets/img/vistas/quienes-somos/quienes-somos-1500.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    @media only screen and (min-width:c.$tablet){
+        background-image: url('/assets/img/vistas/quienes-somos/quienes-somos-1800.avif');
+    }
+    @media only screen and (min-width:c.$desktop){
+        background-image: url('/assets/img/vistas/quienes-somos/quienes-somos-2560.avif');
+    } 
+    >:nth-child(2){
+        width: 150px;
+        height: 150px;
+        
+    }
+    h1{
+        color: c.$color00;
+        font-size: clamp(1rem, 3vw , 3rem);
+    }
+
+    .mensajeBienvenida{
+        color: c.$color00;
+        text-align: center;
+        font-size: 1rem;
+        background-color: c.$color01bis2;
+        padding: 1rem 1.5rem;
+        border-radius: 10px;
+        max-width: 650px;
+    }
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panelConsultas{
+    width: 100%;
+    padding: 3rem c.$padMin 4rem c.$padMin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+
+    @media only screen and (min-width:c.$desktop){
+        padding: 4rem 0 5rem 0;
+        row-gap: 3rem;
+    }
+
+    .tablaConsultas{
+        width: min(1200px, 100%);
+        background-color: c.$color00;
+        border-radius: 16px;
+        padding: 2rem c.$padMin;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+
+        @media only screen and (min-width:c.$tablet){
+            padding: 2.5rem 2rem;
+        }
+
+        .introConsultas{
+            color: c.$color01;
+            line-height: 1.6;
+        }
+
+        .estadoConsultas{
+            font-weight: 600;
+            color: c.$color01;
+
+            &.error{
+                color: c.$color02;
+            }
+        }
+
+        .tablaResponsive{
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+
+            thead{
+                background-color: c.$color01;
+
+                th{
+                    color: c.$color00;
+                    font-size: 0.9rem;
+                    text-align: left;
+                    padding: 0.85rem 1rem;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                }
+            }
+
+            tbody{
+                tr{
+                    transition: 0.3s ease;
+
+                    &:nth-child(even){
+                        background-color: rgba(0,0,0,0.03);
+                    }
+
+                    &:hover{
+                        background-color: rgba(209, 77, 77, 0.08);
+                    }
+
+                    td{
+                        padding: 0.85rem 1rem;
+                        vertical-align: top;
+                        line-height: 1.4;
+                        min-width: 120px;
+
+                        &:nth-child(5){
+                            min-width: 200px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

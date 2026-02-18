@@ -1,0 +1,92 @@
+{
+  "src/js/views/404.js": {
+    "file": "js/src/js/views/404.js-BWimnRfg.js",
+    "name": "src/js/views/404.js",
+    "src": "src/js/views/404.js",
+    "isEntry": true,
+    "css": [
+      "css/404-BH_1ceQL.css"
+    ]
+  },
+  "src/js/views/contacto.js": {
+    "file": "js/src/js/views/contacto.js-Svh8lHYm.js",
+    "name": "src/js/views/contacto.js",
+    "src": "src/js/views/contacto.js",
+    "isEntry": true,
+    "css": [
+      "css/contacto-ZRNzxAa9.css"
+    ]
+  },
+  "src/js/views/gracias.js": {
+    "file": "js/src/js/views/gracias.js-Dg6wN68K.js",
+    "name": "src/js/views/gracias.js",
+    "src": "src/js/views/gracias.js",
+    "isEntry": true,
+    "css": [
+      "css/gracias-CRQzoGQH.css"
+    ]
+  },
+  "src/js/views/inicio.js": {
+    "file": "js/src/js/views/inicio.js-DUoPcUNs.js",
+    "name": "src/js/views/inicio.js",
+    "src": "src/js/views/inicio.js",
+    "isEntry": true,
+    "css": [
+      "css/inicio-S40GHx3e.css"
+    ]
+  },
+  "src/js/views/producto.js": {
+    "file": "js/src/js/views/producto.js-CDkYbqwo.js",
+    "name": "src/js/views/producto.js",
+    "src": "src/js/views/producto.js",
+    "isEntry": true,
+    "css": [
+      "css/producto-B1vPg1rY.css"
+    ]
+  },
+  "src/js/views/productos.js": {
+    "file": "js/src/js/views/productos.js-C4N3KZlv.js",
+    "name": "src/js/views/productos.js",
+    "src": "src/js/views/productos.js",
+    "isEntry": true,
+    "css": [
+      "css/productos-kHmLbMla.css"
+    ]
+  },
+  "src/js/views/quienesSomos.js": {
+    "file": "js/src/js/views/quienesSomos.js-DEBMqfcD.js",
+    "name": "src/js/views/quienesSomos.js",
+    "src": "src/js/views/quienesSomos.js",
+    "isEntry": true,
+    "css": [
+      "css/quienesSomos-CQw6QoN_.css"
+    ]
+  },
+  "src/js/views/templates.js": {
+    "file": "js/src/js/views/templates.js-DcwRoIzk.js",
+    "name": "src/js/views/templates.js",
+    "src": "src/js/views/templates.js",
+    "isEntry": true,
+    "css": [
+      "css/templates-BLO9yrbX.css"
+    ]
+  },
+  "src/js/views/terminos.js": {
+    "file": "js/src/js/views/terminos.js-B9mO4QRC.js",
+    "name": "src/js/views/terminos.js",
+    "src": "src/js/views/terminos.js",
+    "isEntry": true,
+    "css": [
+      "css/terminos-DYv4LJJV.css"
+    ]
+  },
+  "src/js/views/zonaAdmin.js": {
+    "file": "js/src/js/views/zonaAdmin.js-BxljaID5.js",
+    "name": "src/js/views/zonaAdmin.js",
+    "src": "src/js/views/zonaAdmin.js",
+    "isEntry": true,
+    "css": [
+      "css/zonaAdmin-DcOmY1Lx.css"
+    ]
+  }
+}

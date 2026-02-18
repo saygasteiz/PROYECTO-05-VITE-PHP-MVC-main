@@ -1,0 +1,25 @@
+RewriteEngine On
+
+# Quitar el www → redirigir a bbdd-profe.webda.eus
+RewriteCond %{HTTP_HOST} ^www\.bbdd\-profe\.webda\.eus$ [NC]
+RewriteRule ^(.*)$ https://bbdd-profe.webda.eus/$1 [R=301,L]
+
+# quitanmos la / del final
+RewriteRule ^(.*)/$ /$1 [R=301,L]
+
+# que no cuente como url los files y directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#Evitar descarga de archivos en esta carpeta con una redirección 403
+# RedirectMatch 403 ^../App/files/.*$
+
+# carga ese archivo como enroutador
+RewriteRule ^ index.php [L,QSA]
+
+
+# reglas de seguridad de apache SÓLO PARA DINAHOSTING
+<IfModule mod_security2.c>
+	SecRuleRemoveById 201 210580 211220 211230 214940 218130
+</IfModule>
+

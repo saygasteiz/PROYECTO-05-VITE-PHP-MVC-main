@@ -1,0 +1,1 @@
+console.log("entro");const n=document.getElementById("num1"),m=document.getElementById("num2"),o=document.getElementById("respSystem");let e=Number(Math.floor(Math.random()*10)),t=Number(Math.floor(Math.random()*10)),l=e+t;n.innerText=e;m.innerText=t;o.value=l;
