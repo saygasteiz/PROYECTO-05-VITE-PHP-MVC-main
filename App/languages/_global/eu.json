@@ -1,0 +1,100 @@
+{
+    "nav_logo_alt": "Aginaga Okindeiako logoa",
+    "nav_logo_title": "Aginaga Okindegia",
+    "nav_lang_eu_label": "eu",
+    "nav_lang_es_label": "es",
+    "nav_lang_eu_href": "/eu",
+    "nav_lang_es_href": "/es",
+
+    "menu_inicio_label": "Hasiera",
+    "menu_inicio_title": "Hasierako orria",
+    "menu_inicio_href": "/eu",
+
+    "menu_nosotros_label": "Guri buruz",
+    "menu_nosotros_title": "Zure okinak eta gozogileak Aginagan",
+    "menu_nosotros_href": "/eu/guri-buruz",
+
+    "menu_productos_label": "Produktuak",
+    "menu_productos_title": "Gure ogi, pastel eta torrija onenak",
+    "menu_productos_href": "/eu/produktuak",
+
+    "menu_panaderia_label": "Okindegia",
+    "menu_panaderia_title": "Ogi onenak",
+    "menu_panaderia_href": "/eu/produktuak/okindegia",
+
+    "menu_pasteleria_label": "Goxotegia",
+    "menu_pasteleria_title": "Gozogintza artisaua",
+    "menu_pasteleria_href": "/eu/produktuak/goxotegia",
+
+    "menu_torrijas_label": "Torrijak",
+    "menu_torrijas_title": "Gipuzkoako torrija onenak",
+    "menu_torrijas_href": "/eu/produktuak/torrijak",
+
+    "menu_contacto_label": "Kontaktua",
+    "menu_contacto_title": "Kontaktua Aginaga okindegiarekin",
+    "menu_contacto_href": "/eu/kontaktua",
+
+    "menu_admin_label": "Pribatua lekua",
+    "menu_admin_title": "Pribatua lekua",
+    "menu_admin_href": "/eu/admin-gunea",
+
+    "menu_login_label": "Sartu",
+    "menu_logout_label": "Atera",
+    "menu_logout_title": "Atera",
+    "menu_logout_href": "/eu/logout",
+
+    "footer_portfolio_label": "Area-ren portfolio orokorra",
+    "footer_portfolio_title": "Area-ren portfolio orokorra",
+    "footer_portfolio_href": "https://profe.webda.eus/",
+
+    "footer_academia_label": "Área Akademia",
+    "footer_academia_title": "Área Akademia",
+    "footer_academia_href": "https://www.areafor.com/",
+
+    "footer_facebook_href": "",
+    "footer_facebook_title": "Panadería Aginagaren Facebooka",
+    "footer_facebook_alt": "Panadería Aginagaren Facebooka",
+
+    "footer_linkedin_href": "https://www.linkedin.com/in/igor-aranaz-pastor/",
+    "footer_linkedin_title": "Bisitatu gure LinkedIna",
+    "footer_linkedin_alt": "Bisitatu gure LinkedIna",
+
+    "footer_instagram_href": "",
+    "footer_instagram_title": "Panadería Aginagaren Instagram",
+    "footer_instagram_alt": "Panadería Aginagaren Instagram",
+
+    "footer_youtube_href": "https://www.youtube.com/@LiquidArtDevelopers",
+    "footer_youtube_title": "Panadería Aginagaren YouTube",
+    "footer_youtube_alt": "Panadería Aginagaren YouTube",
+
+    "footer_phone_href": "tel:+34943123123",
+    "footer_phone_title": "Deitu iezaguzu 943 123 123 zenbakira",
+    "footer_phone_alt": "Deitu iezaguzu 943 123 123 zenbakira",
+    "footer_phone_text": "943 123 123",
+
+    "footer_whatsapp_href": "https://api.whatsapp.com/send/?phone=34628749350",
+    "footer_whatsapp_title": "Idatzi iezaguzu WhatsApp bidez 600 123 123 zenbakira",
+    "footer_whatsapp_alt": "Idatzi iezaguzu WhatsApp bidez 600 123 123 zenbakira",
+    "footer_whatsapp_text": "600 123 123",
+
+    "footer_mail_href": "mailto:aranaz@gmail.com",
+    "footer_mail_title": "Bidali e-maila helbide honetara: correo@correo.com",
+    "footer_mail_alt": "Bidali e-maila helbide honetara: correo@correo.com",
+    "footer_mail_text": "correo@correo.com",
+
+    "footer_address_href": "https://maps.app.goo.gl/EB3bPiGW1yfoJg3p9",
+    "footer_address_title": "Donostian gaude, Paseo Portuetxe 23b, 413 Donostia helbidean",
+    "footer_address_alt": "Donostian gaude, Paseo Portuetxe 23b, 413 Donostia helbidean",
+    "footer_address_text": "Paseo Portuetxe 23b<br>413 Donostia",
+
+    "footer_logo_alt": "Aginaga Okindegia",
+    "footer_logo_title": "Aginaga Okindegia",
+    "footer_about_text": "1932az geroztik, Panadería Aginaga-n egunero egiten ditugu artisau ogiak eta gozogintza tradizionala tokiko osagai hautatuekin. Zatoz bisitatzera eta dastatu gure espezialitate bero-berriak.",
+    "footer_legal_label": "Legezko oharra",
+    "footer_legal_href": "/eu/legezko-terminoak#legalZona",
+    "footer_cookies_label": "Cookieen kudeaketa",
+    "footer_cookies_href": "/eu/legezko-terminoak#cookiesZona",
+    "footer_privacidad_label": "Pribatutasun politika",
+    "footer_privacidad_href": "/eu/legezko-terminoak#privacidadZona",
+    "footer_rights_text": "Eskubide guztiak erreserbatuta"
+}

@@ -16,6 +16,7 @@ const entrypoints = [
   'src/js/views/quienesSomos.js',
   'src/js/views/terminos.js',
   'src/js/views/templates.js',
+  'src/templates/templatesPF.js',
   'src/js/views/zonaAdmin.js',
 ];
 

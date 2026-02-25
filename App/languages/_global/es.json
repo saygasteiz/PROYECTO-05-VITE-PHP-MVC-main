@@ -1,0 +1,100 @@
+{
+    "nav_logo_alt": "Logotipo Panadería Aginaga",
+    "nav_logo_title": "Panadería Aginaga",
+    "nav_lang_eu_label": "eu",
+    "nav_lang_es_label": "es",
+    "nav_lang_eu_href": "/eu",
+    "nav_lang_es_href": "/es",
+
+    "menu_inicio_label": "Inicio",
+    "menu_inicio_title": "Página de inicio",
+    "menu_inicio_href": "/es",
+
+    "menu_nosotros_label": "Quiénes somos",
+    "menu_nosotros_title": "Tus panaderos y pasteleros en Aginaga",
+    "menu_nosotros_href": "/es/sobre-nosotros",
+
+    "menu_productos_label": "Productos",
+    "menu_productos_title": "Nuestros mejores panes, pasteles y torrijas",
+    "menu_productos_href": "/es/productos",
+
+    "menu_panaderia_label": "Panadería",
+    "menu_panaderia_title": "Los mejores panes",
+    "menu_panaderia_href": "/es/productos/panaderia",
+
+    "menu_pasteleria_label": "Pastelería",
+    "menu_pasteleria_title": "Pastelería artesana",
+    "menu_pasteleria_href": "/es/productos/pasteleria",
+
+    "menu_torrijas_label": "Torrijas",
+    "menu_torrijas_title": "Las mejores torrijas de Gipuzkoa",
+    "menu_torrijas_href": "/es/productos/torrijas",
+
+    "menu_contacto_label": "Contacto",
+    "menu_contacto_title": "Contacto con Panadería Aginaga",
+    "menu_contacto_href": "/es/contacto",
+
+    "menu_admin_label": "Zona Admin",
+    "menu_admin_title": "Zona privada",
+    "menu_admin_href": "/es/zona-admin",
+
+    "menu_login_label": "Login",
+    "menu_logout_label": "logout",
+    "menu_logout_title": "Salir",
+    "menu_logout_href": "/es/logout",
+
+    "footer_portfolio_label": "Porfolio general",
+    "footer_portfolio_title": "Porfolio general",
+    "footer_portfolio_href": "https://profe.webda.eus/",
+
+    "footer_academia_label": "Academia Área",
+    "footer_academia_title": "Academia Area",
+    "footer_academia_href": "https://www.areafor.com/",
+
+    "footer_facebook_href": "",
+    "footer_facebook_title": "Facebook de Panadería Aginaga",
+    "footer_facebook_alt": "Facebook de Panadería Aginaga",
+
+    "footer_linkedin_href": "https://www.linkedin.com/in/igor-aranaz-pastor/",
+    "footer_linkedin_title": "Visita nuestro LinkedIn",
+    "footer_linkedin_alt": "Visita nuestro LinkedIn",
+
+    "footer_instagram_href": "",
+    "footer_instagram_title": "Instagram de Panadería Aginaga",
+    "footer_instagram_alt": "Instagram de Panadería Aginaga",
+
+    "footer_youtube_href": "https://www.youtube.com/@LiquidArtDevelopers",
+    "footer_youtube_title": "YouTube de Panadería Aginaga",
+    "footer_youtube_alt": "YouTube de Panadería Aginaga",
+
+    "footer_phone_href": "tel:+34943123123",
+    "footer_phone_title": "Llámanos al 943 123 123",
+    "footer_phone_alt": "Llámanos al 943 123 123",
+    "footer_phone_text": "943 123 123",
+
+    "footer_whatsapp_href": "https://api.whatsapp.com/send/?phone=34628749350",
+    "footer_whatsapp_title": "Escríbenos al WhatsApp 600 123 123",
+    "footer_whatsapp_alt": "Escríbenos al WhatsApp 600 123 123",
+    "footer_whatsapp_text": "600 123 123",
+
+    "footer_mail_href": "mailto:aranaz@gmail.com",
+    "footer_mail_title": "Mándanos un correo a la siguiente dirección correo@correo.com",
+    "footer_mail_alt": "Mándanos un correo a la siguiente dirección correo@correo.com",
+    "footer_mail_text": "correo@correo.com",
+
+    "footer_address_href": "https://maps.app.goo.gl/EB3bPiGW1yfoJg3p9",
+    "footer_address_title": "Estamos en Donostia en la dirección Paseo Portuetxe 23b, 413 Donostia",
+    "footer_address_alt": "Estamos en Donostia en la dirección Paseo Portuetxe 23b, 413 Donostia",
+    "footer_address_text": "Paseo Portuetxe 23b<br>413 Donostia",
+
+    "footer_logo_alt": "Panadería Aginaga",
+    "footer_logo_title": "Panadería Aginaga",
+    "footer_about_text": "Desde 1932, en Panadería Aginaga horneamos cada día panes artesanos y repostería tradicional elaborados con ingredientes locales de primera calidad. Ven a visitarnos y descubre nuestras especialidades recién hechas.",
+    "footer_legal_label": "Aviso legal",
+    "footer_legal_href": "/es/terminos-legales#legalZona",
+    "footer_cookies_label": "Gestión de cookies",
+    "footer_cookies_href": "/es/terminos-legales#cookiesZona",
+    "footer_privacidad_label": "Política de privacidad",
+    "footer_privacidad_href": "/es/terminos-legales#privacidadZona",
+    "footer_rights_text": "Todos los derechos reservados"
+}

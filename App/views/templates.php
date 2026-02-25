@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- NAV -->
-    <?php include $appRoot . '/includes/es/nav.php' ?>
+    <?php include $appRoot . '/includes/nav.php' ?>
 
 
     <!-- HERO01 -->
@@ -302,6 +302,7 @@
     </main>
 
     <!-- FOOTER -->
-    <?php include $appRoot . '/includes/es/footer.php'?>
+    <?php include $appRoot . '/includes/footer.php'?>
 </body>
 </html>
+

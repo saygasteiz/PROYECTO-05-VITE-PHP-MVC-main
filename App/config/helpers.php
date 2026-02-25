@@ -164,6 +164,13 @@ function vite_tags($entry) {
     return $tags;
 }
 
+// Devuelve la URL pública de un recurso estático dentro de public/.
+// En dev sirve directamente desde la raíz; en producción antepone base_path().
+function vite_public_url($path) {
+    $base = base_path();
+    return $base . '/' . ltrim($path, '/');
+}
+
 // Devuelve el path base de la aplicación (sin dominio) para instalaciones en subcarpetas.
 function base_path() {
     $scriptName = $_SERVER['SCRIPT_NAME'] ?? '';
@@ -175,4 +182,46 @@ function base_path() {
     }
 
     return $base;
+}
+
+
+function getRutasEquivalentesPorIndice(string $url, array $arrayRutasGet): array
+{
+    // Inicializamos el resultado con todos los idiomas a null
+    $resultado = [];
+    foreach ($arrayRutasGet as $lang => $rutas) {
+        $resultado[$lang] = null;
+    }
+ 
+    // 1) Detectar idioma origen (dónde existe la URL actual)
+    $idiomaOrigen = null;
+    foreach ($arrayRutasGet as $lang => $rutas) {
+        if (array_key_exists($url, $rutas)) {
+            $idiomaOrigen = $lang;
+            break;
+        }
+    }
+ 
+    // Si no existe la URL en ningún idioma, devolvemos nulls
+    if ($idiomaOrigen === null) {
+        return $resultado;
+    }
+ 
+    // 2) Sacar índice/posición de esa URL dentro del idioma origen
+    $clavesOrigen = array_keys($arrayRutasGet[$idiomaOrigen]);
+    $indice = array_search($url, $clavesOrigen, true);
+ 
+    if ($indice === false) {
+        return $resultado;
+    }
+ 
+    // 3) Recorrer todos los idiomas y coger la ruta homóloga por posición
+    foreach ($arrayRutasGet as $lang => $rutas) {
+        $clavesIdioma = array_keys($rutas);
+        if (isset($clavesIdioma[$indice])) {
+            $resultado[$lang] = $clavesIdioma[$indice];
+        }
+    }
+ 
+    return $resultado;
 }

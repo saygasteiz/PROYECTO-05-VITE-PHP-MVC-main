@@ -1,0 +1,19 @@
+{
+    "title": "Erregistroa",
+    "meta_description": "",
+    "canonical_path": "/eu/erregistroa",
+    "h1": "Erregistroa",
+    "label_nombre": "Izena *",
+    "placeholder_nombre": "* Idatzi zure izena",
+    "label_correo": "Email *",
+    "placeholder_correo": "* Idatzo zure emaila",
+    "label_pass": "Pasahitza *",
+    "placeholder_pass": "pasahitza",
+    "label_pass2": "Pasahitza errepikatu*",
+    "placeholder_pass2": "Pasahitza errepikatu",
+    "label_terminos": "Onartu",
+    "link_terminos_texto": "pribatutasun baldintzak eta baldintzak",
+    "link_terminos": "/eu/lege-baldintzak",
+    "cta_enviar": "BIDALI",
+    "campos_obligatorios": "* Derrigorrezko eremuak"
+}

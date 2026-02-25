@@ -1,0 +1,48 @@
+{
+    "title": "Panadería Aginaga | Obrador de pan y pastelería artesanal",
+    "meta_description": "Panadería y pastelería artesanal en Aginaga desde 1925. Conoce a nuestro equipo, descubre nuestros productos y disfruta de un trato cercano en cada visita.",
+    "h1": "Panadería Aginaga, tradición artesanal desde 1925",
+    "cta_hero": "Haz tu pedido",
+
+    "h2_presentacion": "Pan, pasteles y cercanía en Aginaga",
+    "h3_obrador": "Un obrador vivo cada mañana",
+    "p_obrador": "En Aginaga horneamos cada día panes de masa madre y dulces artesanos con ingredientes seleccionados. Nuestro obrador combina las recetas de siempre con técnicas actuales para que cada pieza llegue fresca, crujiente y con el sabor auténtico de nuestra tierra.",
+    "h4_card1": "Equipo cercano y experto",
+    "p_card1": "Más de 20 profesionales dedicados al pan y la pastelería artesanal, siempre dispuestos a ayudarte.",
+    "cta_card1": "Conoce quiénes somos",
+    "h4_card2": "Calidad que se nota",
+    "p_card2": "Panes, pasteles y torrijas artesanas elaborados a diario con harinas selectas y fermentaciones largas.",
+    "cta_card2": "Descubre nuestros productos",
+    "cta_pedido": "Haz tu pedido o reserva",
+    "alt_pedido": "Más de 100 años ofreciendo la mejor calidad en Agiña",
+
+    "h2_nosotros": "Somos panaderos por tradición",
+    "h3_siglo": "Casi un siglo de oficio artesanal",
+    "p_siglo_1": "Desde 1925 mantenemos viva la tradición panadera de Aginaga. Somos un equipo que ha aprendido el oficio de generación en generación y que sigue cuidando cada detalle: la selección de harinas, las fermentaciones lentas y el horneado que perfuma el barrio cada mañana.",
+    "p_siglo_2": "Creemos en la cercanía y el trato personal. Queremos que nos conozcas, que sepas quién amasa tu pan y quién prepara tus dulces favoritos. Por eso abrimos nuestro obrador y compartimos cada día el trabajo que nos apasiona.",
+
+    "h3_historia": "Nuestra historia, nuestro barrio",
+    "p_historia_1": "La familia Arrizabalaga abrió las puertas de la panadería en Aginaga hace casi cien años. Hoy seguimos aquí, cerca de ti, creciendo junto a las personas que nos visitan cada día. Cada hogaza y cada pastel lleva el sabor de nuestras raíces y el cariño de quienes los elaboran.",
+    "p_historia_2": "Te invitamos a conocernos, a preguntar, a compartir un café en nuestra terraza y a descubrir por qué seguimos siendo la panadería de confianza del barrio.",
+    "cta_nosotros": "Saber más sobre nosotros",
+
+    "h3_servicio": "Servicio cercano en cada bocado",
+    "p_servicio_1": "Escuchamos lo que necesitas y te recomendamos el pan o el dulce perfecto para cada ocasión. Elaboramos por encargo, preparamos tartas personalizadas y cuidamos cada detalle para que siempre te lleves lo mejor del obrador a tu mesa.",
+    "p_servicio_2": "Si buscas un trato cercano y productos artesanos, aquí nos tienes. Ven a vernos o llámanos y estaremos encantados de ayudarte.",
+    "cta_contacto": "Contacta con nosotros",
+
+    "h2_productos": "Nuestros productos artesanos",
+    "h3_productos": "Pan, pastelería y dulces con identidad propia",
+    "p_productos": "Nuestras especialidades hablan de quiénes somos: panes de masa madre con largas fermentaciones, pasteles artesanos elaborados cada día y las torrijas que se han convertido en nuestro icono más dulce. Seleccionamos materias primas de proximidad y trabajamos con el tiempo y el mimo que merecen las elaboraciones artesanas.",
+    "cta_mas_info": "Más información",
+    "h4_panaderia": "Panadería",
+    "h4_pasteleria": "Pastelería",
+    "h4_torrijas": "Torrijas",
+
+    "link_nosotros": "/es/sobre-nosotros",
+    "link_productos": "/es/productos",
+    "link_contacto": "/es/contacto",
+    "link_panes": "/es/productos#hitoPanes",
+    "link_pasteles": "/es/productos#hitoPasteles",
+    "link_torrijas": "/es/productos#hitoTorrijas"
+}

@@ -1,0 +1,19 @@
+{
+    "title": "Registro",
+    "meta_description": "",
+    "canonical_path": "/es/registro",
+    "h1": "Registro",
+    "label_nombre": "Nombre *",
+    "placeholder_nombre": "* Escribe tu nombre",
+    "label_correo": "Correo *",
+    "placeholder_correo": "* Escribe tu correo",
+    "label_pass": "Contraseña *",
+    "placeholder_pass": "Contraseña",
+    "label_pass2": "Repetir contraseña *",
+    "placeholder_pass2": "Repetir contraseña",
+    "label_terminos": "Aceptar",
+    "link_terminos_texto": "términos y condiciones de privacidad",
+    "link_terminos": "/es/terminos-legales",
+    "cta_enviar": "ENVIAR",
+    "campos_obligatorios": "* Campos obligatorios"
+}

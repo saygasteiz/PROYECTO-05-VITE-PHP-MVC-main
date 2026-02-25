@@ -1,0 +1,48 @@
+{
+    "title": "Aginagako Okindegia | Kalitate handiko gozotegi lantegia",
+    "meta_description": "120 eta 320 karaktere",
+    "h1": "Lorem Ipsum Aginaga",
+    "cta_hero": "Lorem ipsum",
+
+    "h2_presentacion": "Lorem ipsum Aginagan",
+    "h3_obrador": "Lorem ipsum egunerokoa",
+    "p_obrador": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec lacus at dui fermentum rhoncus non vel velit. Nunc ultricies porttitor ligula, nec tincidunt lectus eleifend ac. Donec aliquet nisl sit amet urna gravida tempus.",
+    "h4_card1": "Lorem ipsum taldea",
+    "p_card1": "Lorem ipsum dolor sit amet, consectetur.",
+    "cta_card1": "Lorem ipsum dolor",
+    "h4_card2": "Lorem ipsum kalitatea",
+    "p_card2": "Egunero arreta eta zaintzarekin egina.",
+    "cta_card2": "Lorem ipsum dolor",
+    "cta_pedido": "Lorem ipsum dolor sit",
+    "alt_pedido": "100 urte baino gehiago kalitaterik onena eskaintzen Aginagan",
+
+    "h2_nosotros": "Lorem ipsum taldearen gainean",
+    "h3_siglo": "Lorem ipsum tradizioarekin",
+    "p_siglo_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit, velit vel lobortis sagittis, eros erat congue nunc, non luctus risus mi eu lacus. Sed vitae quam in tortor scelerisque sollicitudin vel vitae ipsum.",
+    "p_siglo_2": "Morbi pretium magna vitae tortor blandit, at posuere odio elementum. Suspendisse bibendum lectus eget varius ultrices. Sed vehicula hendrerit sapien, nec tincidunt tellus. In euismod massa id mi aliquam, non suscipit neque euismod.",
+
+    "h3_historia": "Lorem ipsum gure historiari",
+    "p_historia_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac sem in mi pharetra feugiat. Praesent volutpat, nibh ac porta dignissim, nisl lacus tempor ante, non consequat arcu neque sed tortor.",
+    "p_historia_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget mauris enim. Suspendisse potenti. Mauris efficitur porttitor arcu, in euismod odio condimentum id.",
+    "cta_nosotros": "Lorem ipsum",
+
+    "h3_servicio": "Lorem ipsum aho bakoitzean",
+    "p_servicio_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis semper velit, sed pharetra leo interdum sed. Vestibulum id massa vitae lacus blandit tempus.",
+    "p_servicio_2": "Integer et augue id mi blandit pulvinar. Duis sed ultrices risus. Vestibulum sagittis odio non ipsum hendrerit, a interdum orci suscipit. Fusce ut risus non erat laoreet aliquet.",
+    "cta_contacto": "Lorem ipsum",
+
+    "h2_productos": "Lorem ipsum produktuak",
+    "h3_productos": "Lorem ipsum kalitatearekin",
+    "p_productos": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis leo id lectus viverra sagittis. Suspendisse venenatis efficitur justo, vitae dapibus nunc vehicula et. Phasellus volutpat pulvinar neque nec bibendum. Cras eget velit pellentesque, semper lacus et, condimentum risus. Maecenas dignissim est neque, at condimentum lectus blandit a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin luctus, mi non viverra dapibus, eros orci rutrum mi, sed volutpat ante enim nec erat. Sed elementum dignissim ultrices. Maecenas a urna commodo, suscipit mauris ac, dapibus risus.",
+    "cta_mas_info": "Informazio gehiago",
+    "h4_panaderia": "Okindegia",
+    "h4_pasteleria": "Gozotegia",
+    "h4_torrijas": "Torrijak",
+
+    "link_nosotros": "/eu/guri-buruz",
+    "link_productos": "/eu/produktuak",
+    "link_contacto": "/eu/kontaktua",
+    "link_panes": "/eu/produktuak#hitoPanes",
+    "link_pasteles": "/eu/produktuak#hitoPasteles",
+    "link_torrijas": "/eu/produktuak#hitoTorrijas"
+}

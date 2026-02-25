@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;    
+    outline: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'geom';
+    src: url('./Geom-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'notosans';
+    src: url('./NotoSans_Condensed-Regular.ttf');
+}
+
+// variables
+$color00: #f6f2e9;
+$color00svg: rgb(0, 225, 255);
+$color00bis: #eee6d6;
+$color01: #1f2624;
+$color01bis: #1f262444;
+$color01bis2: #aeb8b1;
+$color02: #c85b2d;
+$color02bis: #dda081;
+$color02svg: rgb(255, 153, 0);
+$color03: #246b68;
+$color03svg: rgba(118, 243, 34, 0.911);
+
+$font02: 'geom';
+$font01: 'notosans';
+
+$tablet: 800px;
+$desktop: 1200px;
+
+$padMin: 1.5rem;
+
+.error{
+    color: red;
+    font-style: italic;
+}
+
+body{
+    min-height: 100dvh;
+    color: $color01;
+    background:
+        radial-gradient(circle at 0% 0%, #ffffff 0%, #f9f4ea 45%, transparent 70%),
+        radial-gradient(circle at 100% 0%, #d9ebe4 0%, transparent 50%),
+        linear-gradient(180deg, #f7f2e9 0%, #efe6d6 100%);
+}
+
+
+nav, header, main, footer, section{
+    width: 100%;
+}
+
+header, main, footer, section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav{
+    height: 10dvh;
+    background: linear-gradient(90deg, #204f4d 0%, #2f7f7b 100%);
+    box-shadow: 0 8px 24px #1f262433;
+}
+header{
+    height: 90dvh;
+    background: linear-gradient(135deg, #cc5f30 0%, #dd8f66 40%, #2f7f7b 100%);
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+}
+main{    
+    padding: 2rem 0 5rem;
+    row-gap: 3rem;
+    @media only screen and (min-width:$tablet){
+        row-gap: 4rem;
+    }
+    @media only screen and (min-width:$desktop){
+        row-gap: 6rem;
+    }
+}
+footer{
+    height: 400px;
+    background: linear-gradient(90deg, #1b302f 0%, #284645 100%);
+}
+
+section{
+    width: min(100%, 1240px);
+    padding: $padMin 0;
+    row-gap: 2rem;
+    @media only screen and (min-width:$tablet){
+        padding: 4rem 0;
+    }
+    @media only screen and (min-width:$desktop){
+        padding: 6rem 0;
+    }
+}
+
+
+h1, h2, h3, h4{
+    font-family: $font01;
+}
+p, span, a, li, label{
+    font-family: $font02;
+}
+
+h1{
+    color: $color00;
+    font-size: clamp(2rem, 7vw, 5rem);
+    letter-spacing: 1px;
+    text-shadow: 0 8px 26px #1f262433;
+}
+h2{
+    color: $color01;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+p{
+    line-height: 1.6;
+}
+
+.boton{
+    padding: 0.5rem 2rem;
+    background: linear-gradient(135deg, #204f4d 0%, #2f7f7b 100%);
+    color: $color00;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1.5px solid #204f4d;
+    transition: 0.3s ease-in-out;
+    letter-spacing: 2px;
+    box-shadow: 0 8px 20px #1f262426;
+    &:hover{
+        color: $color00;
+        background: linear-gradient(135deg, #c85b2d 0%, #dd8f66 100%);
+        border-color: #c85b2d;
+        transform: translateY(-2px);
+    }
+    &:active{
+        transform: translateY(1px);
+    }
+
+}
+
+.art01,
+.art02,
+.art05,
+.artForm01,
+.artForm02{
+    background-color: #ffffffbf;
+    border: 1px solid #1f26241a;
+    border-radius: 24px;
+    box-shadow: 0 16px 40px #1f26241f;
+}
